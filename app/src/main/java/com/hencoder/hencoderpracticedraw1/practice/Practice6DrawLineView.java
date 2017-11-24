@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class Practice6DrawLineView extends View {
+public class Practice6DrawLineView extends MyView {
 
     public Practice6DrawLineView(Context context) {
         super(context);
@@ -25,5 +25,8 @@ public class Practice6DrawLineView extends View {
         super.onDraw(canvas);
 
 //        练习内容：使用 canvas.drawLine() 方法画直线
+        paint.setStrokeWidth(9);
+
+        canvas.drawLine(360,245,680,450,paint);
     }
 }

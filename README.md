@@ -1,3 +1,6 @@
+# 原文網址：http://hencoder.com/ui-1-1/
+# 原作業專案github：https://github.com/hencoder/PracticeDraw1
+
 ![](images/icon.png)
 
 HenCoder 绘制 1 练习项目
